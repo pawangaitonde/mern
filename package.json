@@ -1,0 +1,36 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "app": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawangaitonde/mern.git"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Pawan Gaitonde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawangaitonde/mern/issues"
+  },
+  "homepage": "https://github.com/pawangaitonde/mern#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "mongoose": "^5.12.14",
+    "npm": "^7.17.0",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
